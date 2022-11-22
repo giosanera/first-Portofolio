@@ -1,0 +1,293 @@
+*,html, body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+body {
+	padding: 0;
+	margin: 0;
+
+}
+
+.wrapper {
+	width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+
+.logo a {
+
+	font-size: 50px;
+	font-weight: 800;
+	float: left;
+	font-family: courier;
+	color: lightsalmon;
+	text-decoration: none;
+}
+
+
+.menu {
+	float: right;
+}
+
+
+/*sticky posittion dan safari*/
+nav {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background: #ffff;
+	z-index: 1;
+	border-bottom: 1px solid black;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+
+}
+
+
+nav ul  li {
+	float: left;
+	list-style-type: none;
+
+
+}
+
+
+nav ul li a {
+	color: black;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	
+	transition: all .5s ease-in-out;
+	background: tomato;
+	width: auto;
+	height: auto;
+	color: whitesmoke;
+	border-radius: 12px;
+}
+
+section {
+	margin: auto;
+	display: flex;
+	margin-bottom: 50px;
+
+}
+
+.kolom {
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+
+.kolom .desc {
+	font-size: 20px;
+	font-family: 'comic sans ms';
+	color: lightsalmon;
+}
+
+h2 {
+	font-family: 'comic sans ms';
+	font-size: 45px;
+	margin-bottom: 20px;
+	color: lightsalmon;
+	width: 100%;
+	line-height: 50px;
+}
+
+.kolom p {
+	margin-top: 30px;
+}
+
+
+.btn-pink {
+	background: #FFACC7;
+	border-radius: 20px;
+	margin: 20px 0px 20px 0;
+	padding: 15px 20px 15px 20px;
+	cursor: pointer;
+	color: #222;
+	text-decoration: none;
+	font-weight: bolder;
+
+
+	
+}
+
+
+.btn-pink:hover {
+	background: #FF9F9F;
+	transition: all .5s ease-in-out;
+
+}
+
+
+.tengah {
+	text-align: center;
+	width: 100%;
+
+}
+
+
+.kartu-tutor {
+	display: flex;
+	padding: 20px;
+	margin: 10px;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	float: top;
+}
+
+.kartu-tutor img {
+
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	margin: 0px 20px 0px 20px;
+	border: 3px solid #404258;
+	position: relative;
+}
+.kartu-tutor img:hover {
+	width: 250px;
+	height: 250px;
+	transition: all 1s ease-in-out;
+	border: none;
+	border-radius: 200px;
+}
+
+
+.orang {
+	display: flex;
+	padding: 0px;
+
+}
+
+.orang h2 {
+	color: lightsalmon;
+	font-size: 24px;
+	font-weight: 800;
+	opacity: 60%;
+
+}
+
+
+.partner-list {
+	
+
+}
+
+.kartu-partner {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+.kartu-partner img {
+	width: 200px;
+	height: 200px;
+	padding: 20px;
+}
+
+.kartu-partner img:hover {
+	width: 250px;
+	height: 250px;
+	padding: 30px;
+	cursor: pointer;
+	transition: all .5s linear;
+/*	 box-shadow: 5px 5px blue, 10px 10px red, 15px 15px lightsalmon;*/
+	box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+
+#contact {
+	background: #dedede;
+	padding: 50px 0px 50px 0px;
+
+}
+
+
+.footer {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.footer-section {
+	width: 20%;
+	margin: 0 auto;
+
+}
+
+
+h3 {
+	font-family: 'comic sans ms';
+	font-weight: 800;
+	font-size: 30px;
+	margin-bottom: 30px;
+	color: lightsalmon;
+	width: 100%;
+	line-height: 50px;
+}
+
+#copyright {
+	text-align: center;
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	margin-top: 40px;
+
+}
+
+@media screen and (max-width: 991.98px) {
+	.wrapper {
+		width: 90%;
+
+	}
+
+	.logo a {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.nav .menu {
+		width: 100%;
+		margin: 0;
+
+	}
+
+
+	nav .menu ul {
+		text-align: center;
+		margin: auto;
+		line-height: 60px;
+
+	}
+
+
+	nav .menu ul li {
+		display: inline-block;
+		float: none;
+		
+	}
+}
